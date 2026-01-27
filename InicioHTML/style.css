@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    background-color: #41834c;
+    position: relative;
+}
+
+.encabezado {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    list-style: none; 
+    border-left: 2px solid black;
+    margin-left: 5px;
+}
+
+.recuadro-info {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px 0 20px 25px;
+    width: 250px;
+}
+
+summary:hover {
+    background-color: #f0f0f0;
+}
+
+/* NUEVO ESTILO PARA LA IMAGEN */
+.logo-derecha {
+    position: absolute;
+    top: 80px;      /* Distancia desde arriba */
+    right: 30px;    /* Distancia desde la derecha */
+    width: 100px;   /* Tamaño pequeño */
+    height: auto;
+}
